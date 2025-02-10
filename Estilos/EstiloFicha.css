@@ -1,0 +1,306 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #E74C3C; /* Color rojo */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Ajusta el tamaño de la imagen del logo */
+    height: auto;
+}
+
+.titulo h1 {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #C0392B;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #A93226; 
+}
+/* Estilo ficha */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor Principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+}
+
+/* Encabezado Principal */
+h1 {
+    background-color: #e53935; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Títulos de Secciones */
+h2, h3 {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 5px;
+    margin: 0;
+    font-size: 16px;
+    border-bottom: 2px solid #e53935;
+}
+
+/* Ajustes de la Tabla Principal */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e53935; 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Ajuste para campos de texto en la tabla */
+table input {
+    background-color: #fff !important;
+    color: #333 !important; 
+    border: 1px solid #ddd !important; 
+    padding: 5px !important;
+    margin: 5px 0 !important;
+    box-sizing: border-box !important;
+    font-size: 14px !important;
+    width: 90%; 
+    text-align: center;
+}
+
+/* Estilo específico para la tabla de Repuestos Utilizados */
+table.repuestos {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+}
+
+table.repuestos th, table.repuestos td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: #fff; 
+}
+
+table.repuestos th {
+    background-color: #e53935; 
+    color: white; 
+    font-weight: bold; 
+}
+
+table.repuestos input {
+    width: 90%; 
+    margin: 0 auto; 
+    display: block; 
+    border: 1px solid #ddd;
+    background-color: #fff; 
+    padding: 5px; 
+    text-align: center; 
+}
+
+table.repuestos tr {
+    border-bottom: 1px solid #ddd; 
+}
+
+table.repuestos tbody tr:hover {
+    background-color: #f9f9f9; 
+}
+
+/* Ajuste para el campo "Cantidad" */
+table.repuestos input[name="cantidad[]"] {
+    text-align: center;
+    width: 90% !important; 
+}
+
+/* Ajuste específico para contómetro */
+table.contometro td {
+    padding: 10px;
+    width: 25%;
+}
+
+/* Estilo de Botones */
+button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilo adicional para textarea */
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Etiquetas y Layout */
+label {
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Ajustes de la sección Firma y Sello del Cliente */
+.firma-sello {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+/* Ajustes específicos para los campos de firma, nombre y área */
+.firma-sello label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.firma-sello input {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Contenedor de los campos de firma, nombre y área */
+.firma-sello .firma-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.firma-sello .firma-container input {
+    margin-bottom: 10px;
+}
+
+/* Ajustes específicos para el cuadro de sello */
+.firma-sello .sello-container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+}
+
+.firma-sello .sello-container textarea {
+    width: 150px; 
+    height: 100px; 
+    border: 1px solid #ddd;
+    resize: none; 
+    padding: 10px;
+}
+
+/* Asegurar visibilidad de la sección de repuestos */
+.repuestos-container {
+    margin: 20px 0; 
+}
+
+/* Encabezado de Sección */
+.repuestos-container h2 {
+    border-bottom: 2px solid #e53935; 
+    margin-bottom: 15px; 
+    padding-bottom: 5px; 
+}
+
+/* Ajuste adicional para tablas */
+table th, table td {
+    background-color: #fff; 
+}
+
+.checklist th {
+    
+    color: black; 
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.checklist td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de los radios */
+.checklist input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
