@@ -43,7 +43,7 @@ Crear un sistema de inventario que permita registrar, consultar y generar report
 
 - **Base de Datos:** SQL Server
 - **Lenguajes y Herramientas:** HTML, CSS, Javascript.
-- **Frameworks:** (Incluir si se utilizan frameworks específicos para el desarrollo de la interfaz o la integración de la base de datos)
+- **Frameworks:** Boostrap V5.
 
 ## Instalación y Ejecución
 
